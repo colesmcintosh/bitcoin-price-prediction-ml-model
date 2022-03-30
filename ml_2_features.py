@@ -42,8 +42,8 @@ print("Accuracy: {:.2f}%".format(accuracy))
 
 future = pd.DataFrame(columns=['Month', 'Year'])
 
-future['Month'] = [i for i in range(1, 13)]
-future['Year'] = [2022 for i in range(12)]
+future['Month'] = [i for i in range(4, 13)]
+future['Year'] = [2022 for i in range(9)]
 
 #make predictions
 predictions = model.predict(future)
