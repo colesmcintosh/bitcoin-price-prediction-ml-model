@@ -6,7 +6,7 @@
 
 >We train a random forest regression model on the training data. The model is then used to make predictions on the test data. The predictions are then compared to the actual values to calculate the accuracy of the model. 
 
->The code then uses the trained model to make predictions for the Bitcoin-USD pair. The predictions are then displayed.
+>We use the trained model to make predictions for the Bitcoin-USD pair. The predictions are then displayed.
 
 >The first model (ml_6_features.py) uses 6 different features ('Month', 'Year', 'Open', 'High', 'Low', 'Volume') whereas the second model (ml_2_features.py) uses only 2 features ('Month', 'Year') to make predications on the 'Closing' value.
 
